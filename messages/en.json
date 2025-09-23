@@ -1,5 +1,7 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "PokemonList":"Pokemons List",
+    "@2025 Pokémon App. All rights reserved":"@2025 Pokémon App. All rights reserved.",
+    "Developed for: ISIS3710": "Developed for: ISIS3710"
   }
 }
