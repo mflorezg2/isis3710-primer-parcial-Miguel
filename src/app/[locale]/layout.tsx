@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import "@/app/globals.css";
 import Header from '@/Components/Header';
 import Footer from '@/Components/Footer';
+import Head from 'next/head';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,15 +27,19 @@ export default async function RootLayout({children, params}: Props) {
   return (
     <html lang="en">
       <body>
-        <NextIntlClientProvider>
-        <Header></Header>
-        <main>
-          {children}
-        </main>
-        <Footer></Footer>
-        </NextIntlClientProvider>
+        <Head>
+          <title>PokedexNacional - PokeApp</title>
+          <meta name="Explora la Pokédex de la primera generación: un listadocompleto de Pokémon con sus características y detalles
+          principales." content="Esta es una descripción de la página." />
+        </Head>
+          <NextIntlClientProvider>
+            <Header></Header>
+            <main>
+              {children}
+            </main>
+            <Footer></Footer>
+          </NextIntlClientProvider>
       </body>
-
     </html>
   );
 }

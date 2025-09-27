@@ -1,7 +1,15 @@
 {
   "HomePage": {
     "PokemonList":"Lista de pokemons",
-    "@2025 Pokémon App. All rights reserved":"@2025 Pokemon App. Todos los derechos Reservados",
+    "@2025 Pokémon App All rights reserved":"@2025 Pokemon App. Todos los derechos Reservados",
     "Developed for: ISIS3710": "Desarrollado para: ISIS3710"
+  },
+
+  "Detail": {
+    "DP":"Detalle del Pokemon",
+    "height":"Altura: ",
+    "weigth":"Peso: ",
+    "abilities": "Habilidades: ",
+    "types":"Tipos"
   }
 }

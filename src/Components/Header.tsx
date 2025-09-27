@@ -6,10 +6,10 @@ import {useTranslations} from 'next-intl';
 const Header = () =>{
     const t = useTranslations('HomePage');
     return(
-        <div className=" bg-red-500 flex flex-col items-center">
+        <header className=" bg-[#E71309] flex flex-col items-center">
             <Image src="/pokemon-logo.png" alt="Imagen" width={200} height={200}/>
 
-        </div>
+        </header>
 
     )
 }

@@ -1,7 +1,15 @@
 {
   "HomePage": {
     "PokemonList":"Pokemons List",
-    "@2025 Pokémon App. All rights reserved":"@2025 Pokémon App. All rights reserved.",
+    "@2025 Pokémon App All rights reserved":"@2025 Pokémon App. All rights reserved.",
     "Developed for: ISIS3710": "Developed for: ISIS3710"
+  },
+
+  "Detail": {
+    "DP":"Pokemons Detail",
+    "height":"height: ",
+    "weigth":"weigth: ",
+    "abilities": "abilities: ",
+    "types":"types"
   }
 }
