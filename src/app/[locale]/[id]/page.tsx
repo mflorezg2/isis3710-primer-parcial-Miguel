@@ -10,8 +10,6 @@ import { useParams } from "next/navigation";
 import Head from 'next/head';
 
 
-
-
 interface PokemonD {
   name: string;
   image:string;
